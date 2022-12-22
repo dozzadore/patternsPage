@@ -1,0 +1,45 @@
+.headerBox {
+    height: 22px;
+    display: grid;
+    align-items: center;
+    text-align: center;  
+    margin-left: 30px;
+  }
+  
+.Header {
+    align-content: center;
+    height: 100px;
+    width: 100%;
+    font-size: 17px;
+    color: white;
+    margin: 0;
+    display: grid;
+    justify-items: end;
+  }
+.headerIn {
+    background-color: #36684ab4;
+    width: 1050px;
+    height: 30px;
+    display: grid;
+    column-gap: 55px;
+    justify-content: center;
+    grid-template-columns:auto auto auto auto;
+    top: 0;
+  }
+
+  a:visited {
+    color: antiquewhite;
+  }
+  a:link {
+    color: antiquewhite;
+  }
+  a:active {
+    color: #a66db8b4; 
+     
+  }
+ 
+  a {
+    cursor: pointer;
+    height: 25px;
+    text-decoration: none; 
+  }

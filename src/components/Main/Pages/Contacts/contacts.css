@@ -1,0 +1,14 @@
+.Contacts {
+    display: grid;
+    justify-items: center;
+  }
+  
+.contactsContainer {
+    display: grid;
+    height: 400px;
+    width:96%;
+    background-color: rgba(36, 61, 129, 0.274);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }

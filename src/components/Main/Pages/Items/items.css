@@ -1,0 +1,29 @@
+.Items {
+    display: grid;
+    justify-items: center;
+  }
+  
+.itemsContainer {
+    display: grid;
+    min-height: 500px;
+    width:96%;
+    background-color: rgba(123, 129, 36, 0.274);
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .prodBox {
+    width: 150px;
+    height: 100px;
+  }
+
+  
+  ul {
+    padding: 20px;
+    list-style-type: none;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    /*grid-template-rows: repeat(2, 1fr);*/
+    gap: 20px;
+  }
