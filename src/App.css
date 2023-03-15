@@ -15,7 +15,7 @@ body {
 .App {
   display: grid;
   grid-template-rows:max-content;
-  min-height: 100vh;
+  height: 100vh;
   gap: 20px;
 }
 

@@ -1,18 +1,36 @@
 
-li {
+.cardContainer {
+
     display: grid;
-    padding: 5px;
-    width: 220px;
-    height: 250px;
+    min-height: 280px;
     list-style-type: none;
-    background-color: rgb(32, 59, 59);
+    margin: 0;
+    padding: 0;
+
 }
 
-img {
-    max-width: 200px;
-    height: 200px;
+.imgCard {
+    display: grid;
+   
+    width: 250px;
+    height: 280px;
 }
 
-h3 {
+.h3 {
+    display: grid;
+   
+    width: 200px;
     color: black;
+    text-align: center;
+   
+    justify-self: center;
+}
+h3 {
+    font-size: 13px;
+}
+
+a {
+    grid-template-rows:280px 20px;
+    display: grid;
+    min-height: 300px;
 }

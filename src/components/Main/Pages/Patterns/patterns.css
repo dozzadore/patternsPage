@@ -7,10 +7,9 @@
     display: grid;
     height: 400px;
     width:96%;
-    background-color: rgba(129, 78, 36, 0.274);
+    background-color: rgba(123, 129, 36, 0.274);
     align-items: center;
     text-align: center;
-    border-radius: 10px;
   }
   .prodBox {
     width: 150px;

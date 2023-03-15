@@ -4,13 +4,14 @@ import "./card.css"
 
 const ItemsCard = ({title, img}) => {
     return (
-        <li className="cardContainer">
+        <div className="cardContainer">
             <a href="ya.ru">
-                <img  src={img} alt=""/>
-              <h3>{title}</h3>
+                <img className="imgCard" src={img} alt=""/>
+                <div className="h3"><h3>{title}</h3></div>
             </a>  
-        </li>
+        </div>
     )
 }
 
 export default ItemsCard;
+
