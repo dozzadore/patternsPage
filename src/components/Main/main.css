@@ -17,12 +17,13 @@
 
   .right-box {
     position: relative;
-    top: 20px;
     right: 70px;
-    background-color: black;
     width: 350px;
     height: 400px;
     margin-top: 35px;
+  }
+  .right-box img {
+    border: 2px solid #36684a;;
   }
 
  .main-box-text {

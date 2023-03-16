@@ -12,6 +12,7 @@
 }
 
 .slider-main p {
+    padding: 10px;
     position: relative;
     left: 75px;
     margin-top: 35px;

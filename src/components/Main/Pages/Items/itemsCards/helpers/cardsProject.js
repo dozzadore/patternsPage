@@ -7,11 +7,13 @@ import img06 from "./06.jpg";
 
 
 
+
 const project = [
     
     {
         title: 'item06',
         img: img06,
+        to: "/patterns",
     },
 
     {
@@ -22,6 +24,7 @@ const project = [
     {
         title: 'item04',
         img: img04,
+        to: "/patterns",
     },
     
     {
