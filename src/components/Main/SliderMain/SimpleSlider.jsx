@@ -61,6 +61,7 @@ export default class SimpleSlider extends Component {
             <img src={images[4]} alt="" />
           </div>
         </Slider>
+       
         <p>After the weirdness of 2021-2022 fashion trends, with online business meetings and WFH, the current fashion trends of 2023 bring some refreshing changes you’ll love to hear about.
 
 For 60 years or more, the “latest” fashion trends were gathered from runways and fashion magazines.

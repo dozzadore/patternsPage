@@ -1,14 +1,16 @@
 .slider-main {
-    width: 800px;
-    min-height: 250px;
+    
+    width: 1100px;
+    height: 750px;
     margin-top: 35px;
+ 
 }
-
 
 
 .slider-box img {
     width: 100%;
-    height: 200px;
+    height: 400px;
+ 
 }
 
 .slider-main p {

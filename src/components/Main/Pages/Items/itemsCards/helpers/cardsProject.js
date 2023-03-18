@@ -40,6 +40,7 @@ const project = [
     {
         title: 'item01',
         img: img01,
+        to: "/items/itempage01",
     },
 ];
 

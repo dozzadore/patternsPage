@@ -1,0 +1,14 @@
+.itemPageMain {
+    width: 1000px;
+    display: flex;
+    position: relative;
+    background: black;
+
+}
+
+.imgCarousel img {
+    width: 600px;
+    height: 400px;
+    display: block;
+    background-color: aqua;
+}

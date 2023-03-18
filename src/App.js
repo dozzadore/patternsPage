@@ -5,6 +5,7 @@ import Main from './components/Main/Main';
 import Items from "./components/Main/Pages/Items/Items";
 import Contacts from "./components/Main/Pages/Contacts/Contacts";
 import Patterns from "./components/Main/Pages/Patterns/Patterns";
+import ItemPage01 from "./components/Main/Pages/Items/itemsPages/page01/ItemPage01";
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/contacts" element={<Contacts />} />
-       </Routes>
+            <Route path="/items/itempage01" element={<ItemPage01 />}/>
+      </Routes>
       </Router>
     </div>
   );

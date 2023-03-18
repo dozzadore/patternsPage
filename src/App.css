@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font: italic small-caps bold 16px/2 cursive;
+  font-family: 'Edu NSW ACT Foundation', cursive;
+  
 }
 
 body {
   font-family: sans-serif;
   width: 100%;
   min-height: 100vh;
-  
+  background-color: rgb(65, 62, 66);
 }
 
 .App {
