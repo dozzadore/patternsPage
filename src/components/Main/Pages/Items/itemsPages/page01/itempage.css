@@ -1,14 +1,40 @@
 .itemPageMain {
-    width: 1000px;
     display: flex;
-    position: relative;
-    background: black;
-
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: linear-gradient(133deg, rgba(253, 253, 253, 0.377), rgba(14, 13, 13, 0.397));
 }
 
-.imgCarousel img {
-    width: 600px;
-    height: 400px;
+
+.carousel-page {
+    width: 800px;
+    height: 200px;
+   
+}
+.carousel-page img {
+    cursor: pointer;
+    height: 200px;
+}
+img.zoom {
+    -moz-user-select: none; user-select: none;
+  }
+  img.zoom:hover {
     display: block;
-    background-color: aqua;
-}
+    position: fixed;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+    max-width: 99%;
+    max-height: 99%;
+    border: solid rgba(210,210,210,.4);
+    border-width: 100vh 100vw;
+    cursor: zoom-out;
+  }
+  :not(:active) > img.zoom:not(:hover), img.zoom:active {
+    pointer-events: none;
+  }
+  /* не идеально: transition-property не поддерживает свойство position. В результате, если переключить вкладку браузера, то картинка становится вновь маленькой. */

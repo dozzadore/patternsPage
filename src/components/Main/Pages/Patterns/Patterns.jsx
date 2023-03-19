@@ -5,7 +5,8 @@ const Patterns = () => {
     return(
         <div className="Patterns">
             <div className="patternsContainer">
-                 Patterns
+            Patterns
+                <div className="box"></div> 
             </div>
         </div>
     );

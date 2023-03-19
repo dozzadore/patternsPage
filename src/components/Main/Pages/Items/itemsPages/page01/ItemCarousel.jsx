@@ -1,43 +1,66 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import { baseUrl } from "./config";
 import "./itempage.css";
+import image from "../../../../SliderMain/images";
 
-export default class CenterMode extends Component {
-  render() {
-    const settings = {
-      customPaging: function(i) {
-        return (
-          <div className="imgCarousel">
-            <img src={`/image01.jpg`} alt=""/>
-          </div>
-        );
-      },
-      dots: true,
-      dotsClass: "slick-dots slick-thumb",
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    };
-    return (
-      <div>
-        <h2>Custom Paging</h2>
-        <Slider {...settings}>
-          <div>
-            <img src={baseUrl + "/image01.jpg"} alt=""/>
-          </div>
-          <div>
-            <img src={baseUrl + "/image02.jpg"} alt=""/>
-          </div>
-          <div>
-            <img src={baseUrl + "/image03.jpg"} alt=""/>
-          </div>
-          <div>
-            <img src={baseUrl + "/image04.jpg"} alt=""/>
-          </div>
-        </Slider>
-      </div>
-    );
-  }
+function SampleNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "none", background: "red" }}
+      onClick={onClick}
+    />
+  );
 }
+
+function SamplePrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style, display: "none", background: "green" }}
+      onClick={onClick}
+    />
+  );
+}
+
+  
+  export default class CenterMode extends Component {
+    render() {
+      const settings = {
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000,
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
+      };
+      return (
+        <div className="carousel-page">
+          <Slider {...settings}>
+            <div>
+              <h3><img src={image[0]} alt="" /></h3>
+            </div>
+            <div>
+              <img src={image[1]} alt="" /> 
+            </div>
+            <div>
+              <img src={image[2]} alt="" /> 
+            </div>
+            <div>
+              <img src={image[3]} alt="" /> 
+            </div>
+            <div>
+              <img src={image[4]} alt="" /> 
+            </div>
+            <div>
+              <img src={image[5]} alt="" /> 
+            </div>
+          </Slider>
+        </div>
+      );
+    }
+  }
