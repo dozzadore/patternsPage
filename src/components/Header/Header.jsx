@@ -7,22 +7,22 @@ const Header = () => {
         <div className="Header">
             <div className="headerIn">
                 <div className='headerBox'>
-                    <NavLink to="/" style={({ isActive }) =>({color: isActive ? 'antiquewhite' : 'white'})}>
+                    <NavLink to="/" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Home</strong>
                     </NavLink>
                 </div>
                 <div className='headerBox'>
-                    <NavLink to="/items" style={({ isActive }) =>({color: isActive ? 'antiquewhite' : 'white'})}>
+                    <NavLink to="/items" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Items</strong>
                     </NavLink>
                 </div>
                 <div className='headerBox'>
-                    <NavLink to="/patterns" style={({ isActive }) =>({color: isActive ? 'antiquewhite' : 'white'})}>
+                    <NavLink to="/patterns" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Patterns</strong>
                     </NavLink>
                 </div>
                 <div className='headerBox'>
-                    <NavLink to="/contacts" style={({ isActive }) =>({color: isActive ? 'antiquewhite' : 'white'})}>
+                    <NavLink to="/contacts" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                             <strong>Contacts</strong>
                     </NavLink>
                 </div>

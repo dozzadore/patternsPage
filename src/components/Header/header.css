@@ -27,16 +27,7 @@
     top: 0;
   }
 
-  a:visited {
-    color: antiquewhite;
-  }
-  a:link {
-    color: antiquewhite;
-  }
-  a:active {
-    color: #a66db8b4; 
-     
-  }
+ 
  
   a {
     cursor: pointer;
