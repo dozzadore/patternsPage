@@ -1,8 +1,14 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./SimpleSlider.css";
-import images from "./images";
+import { Link } from "react-router-dom";
 
+import img01 from "./Images/01.jpg";
+import img02 from "./Images/02.jpg";
+import img03 from "./Images/03.jpg";
+import img04 from "./Images/04.jpg";
+import img05 from "./Images/05.jpg";
+import img06 from "./Images/06.jpg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -29,8 +35,8 @@ function SamplePrevArrow(props) {
 
 export default class SimpleSlider extends Component {
   render() {
+  
     const settings = {
-      dots: true,
       infinite: true,
       fade: true,
       speed: 700,
@@ -43,31 +49,32 @@ export default class SimpleSlider extends Component {
       prevArrow: <SamplePrevArrow />
     };
     return (
+      <Link to="/items">
       <div className="slider-main">
         <Slider {...settings}>
+        
           <div className="slider-box">
-            <img src={images[0]} alt="" />
+              <img src={img01} alt="" />
           </div>
           <div className="slider-box">
-            <img src={images[1]} alt="" />
+              <img src={img02} alt="" />
           </div>
           <div className="slider-box">
-            <img src={images[2]} alt="" />
+              <img src={img03} alt="" />
           </div>
           <div className="slider-box">
-            <img src={images[3]} alt="" />
+              <img src={img04} alt="" />
           </div>
           <div className="slider-box">
-            <img src={images[4]} alt="" />
+              <img src={img05} alt="" />
           </div>
+          <div className="slider-box">
+              <img src={img06} alt="" />
+          </div>
+          
         </Slider>
-       
-        <p>After the weirdness of 2021-2022 fashion trends, with online business meetings and WFH, the current fashion trends of 2023 bring some refreshing changes you’ll love to hear about.
-
-For 60 years or more, the “latest” fashion trends were gathered from runways and fashion magazines.
-
-Nowadays, social media influencers and the overall streetwear culture dictate what’s cool and fresh in fashion.</p>
       </div>
+      </Link>
     );
   }
 }

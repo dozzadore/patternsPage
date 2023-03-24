@@ -13,28 +13,31 @@ const project = [
     {
         title: 'item06',
         img: img06,
-        to: "/patterns",
+        to: "/items/itempage06",
     },
 
     {
         title: 'item05',
         img: img05,
+        to: "/items/itempage05",
     },
 
     {
         title: 'item04',
         img: img04,
-        to: "/patterns",
+        to: "/items/itempage04",
     },
     
     {
         title: 'item03',
         img: img03,
+        to: "/items/itempage03",
     },
 
     {
         title: 'item02',
         img: img02,
+        to: "/items/itempage02",
     },
 
     {
