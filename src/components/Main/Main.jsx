@@ -15,7 +15,7 @@ const Main = () => {
                     </div>
                     
                     <div className="bottomText">
-                        <p>FashionTV presents BABYFACE FASHIONTV CLUB SHANGHAI, one of the most exclusive studios, clubs & restaurants in Shanghai. Join the fashion elite and celebrate the cosmopolitan lifestyle with a new generation of fashion, music and models.</p>
+                    <p className="marksMainText1">''</p><p className="bottomTextMiddle">FashionTV presents BABYFACE FASHIONTV CLUB SHANGHAI, one of the most exclusive studios, clubs & restaurants in Shanghai. Join the fashion elite and celebrate the cosmopolitan lifestyle with a new generation of fashion, music and models.</p><p className="marksMainText2">''</p>
                     </div>
                 </div>
                 <div className="main-img">

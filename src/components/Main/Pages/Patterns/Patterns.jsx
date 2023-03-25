@@ -1,12 +1,19 @@
 import "./patterns.css";
+import PatternsCard from "./patternsCards/Card";
+import { project } from "./patternsCards/helpers/cardsProject";
 
 
 const Patterns = () => {
     return(
         <div className="Patterns">
             <div className="patternsContainer">
-            Patterns
-                <div className="box"></div> 
+                <ul className="patternsCard"> 
+                    {project.map((project, index) => {
+                        return (
+                            <PatternsCard key={index} title={project.title} img={project.img} to={project.to}/>
+                        )
+                    })}
+                </ul>
             </div>
         </div>
     );

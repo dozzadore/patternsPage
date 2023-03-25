@@ -11,6 +11,12 @@ import ItemPage03 from "./components/Main/Pages/Items/itemsPages/page01/ItemPage
 import ItemPage04 from "./components/Main/Pages/Items/itemsPages/page01/ItemPage04";
 import ItemPage05 from "./components/Main/Pages/Items/itemsPages/page01/ItemPage05";
 import ItemPage06 from "./components/Main/Pages/Items/itemsPages/page01/ItemPage06";
+import PatternPage01 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage01";
+import PatternPage02 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage02";
+import PatternPage03 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage03";
+import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage04";
+import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05";
+import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06";
 
 function App() {
   return (
@@ -28,6 +34,12 @@ function App() {
             <Route path="/items/itempage04" element={<ItemPage04 />}/>
             <Route path="/items/itempage05" element={<ItemPage05 />}/>
             <Route path="/items/itempage06" element={<ItemPage06 />}/>
+            <Route path="/patterns/patternpage01" element={<PatternPage01 />}/>
+            <Route path="/patterns/patternpage02" element={<PatternPage02 />}/>
+            <Route path="/patterns/patternpage03" element={<PatternPage03 />}/>
+            <Route path="/patterns/patternpage04" element={<PatternPage04 />}/>
+            <Route path="/patterns/patternpage05" element={<PatternPage05 />}/>
+            <Route path="/patterns/patternpage06" element={<PatternPage06 />}/>
       </Routes>
       </Router>
     </div>
