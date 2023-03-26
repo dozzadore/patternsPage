@@ -39,7 +39,7 @@
   }
   .main-text {
     display: flex;
-    width: 50%;
+    max-width: 50%;
     font-size: 50px;
     flex-direction: column;
     height: 100px;
@@ -179,5 +179,5 @@ box-shadow: -5px 5px 12px 7px rgba(7, 7, 7, 0.2);
    width: 45px;
    height: 45px;
    margin: 0;
-   right: -50%;
+  right: -50%;
  }
