@@ -6,27 +6,32 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    -webkit-box-shadow: 10px 7px 12px 4px rgba(163, 25, 165, 0.2);
--moz-box-shadow: 10px 7px 12px 4px rgba(163, 25, 165, 0.2);
-box-shadow: 10px 7px 12px 4px rgba(163, 25, 165, 0.2);
- 
+    -webkit-box-shadow: 2px 0px 14px 3px rgba(20, 20, 21, 0.2);
+    -moz-box-shadow: 2px 0px 14px 3px rgba(20, 20, 21, 0.2);
+    box-shadow: 2px 0px 14px 3px rgba(20, 20, 21, 0.2);
 }
 
-.imgCard {
+.cardContainerPattern .imgCard {
     display: flex;
     position: absolute;
     width: 250px;
     height: 280px;
-    -webkit-box-shadow: -5px -8px 12px 4px rgba(4, 4, 4, 0.2);
-    -moz-box-shadow: -5px -8px 12px 4px rgba(4, 4, 4, 0.2);
-    box-shadow: -5px -8px 12px 4px rgba(4, 4, 4, 0.2);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.cardContainerPattern .imgCard:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    -webkit-box-shadow: 2px 0px 14px 9px rgba(20, 20, 21, 0.2);
+    -moz-box-shadow: 2px 0px 14px 9px rgba(20, 20, 21, 0.2);
+    box-shadow: 2px 0px 14px 9px rgba(20, 20, 21, 0.2);
 }
 
-.h3 {
+.cardContainerPattern .textCard {
     display: block;
-    width: 200px;
+    min-width: 20px;
     color: black;
-    height: 50px;
+    height: 20px;
     position: relative;
     bottom: 0;
     left: 0;

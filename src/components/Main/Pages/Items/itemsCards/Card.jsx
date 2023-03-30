@@ -6,7 +6,7 @@ const ItemsCard = ({title, img, to}) => {
         <div className="cardContainerItems">
             <Link to={to}>
                 <img className="imgCard" src={img} alt=""/>
-                <div className="h3">{title}</div>
+                <div className="textCard">{title}</div>
             </Link>  
         </div>
     )

@@ -11,37 +11,37 @@ import img06 from "./06.jpg";
 const project = [
     
     {
-        title: 'item06',
+        title: 'pat06',
         img: img06,
         to: "/patterns/patternpage06",
     },
 
     {
-        title: 'item05',
+        title: 'pat05',
         img: img05,
         to: "/patterns/patternpage05",
     },
 
     {
-        title: 'item04',
+        title: 'pat04',
         img: img04,
         to: "/patterns/patternpage04",
     },
     
     {
-        title: 'item03',
+        title: 'pat03',
         img: img03,
         to: "/patterns/patternpage03",
     },
 
     {
-        title: 'item02',
+        title: 'pat02',
         img: img02,
         to: "/patterns/patternpage02",
     },
 
     {
-        title: 'item01',
+        title: 'pat01',
         img: img01,
         to: "/patterns/patternpage01",
     },

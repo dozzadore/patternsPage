@@ -1,6 +1,5 @@
 import { isDisabled } from "@testing-library/user-event/dist/utils/misc/isDisabled";
 import React from "react";
-import { useState } from "react";
 import "./patternsul.css";
 
 
@@ -28,62 +27,62 @@ const PatternsUl = () => {
         e.preventDefault(isDisabled)
         let height = data.selectedRadioInput;
         let size = data1.selectedRadioInput1;
-       if(height == '160height' && size == '40'){
+       if(height === '160height' && size === '40'){
         console.log(height, size)
         //window.location.assign('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
-       }if(height == '160height' && size == '42'){
+       }if(height === '160height' && size === '42'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '160height' && size == '44'){
+       }if(height === '160height' && size === '44'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '160height' && size == '46'){
+       }if(height === '160height' && size === '46'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '160height' && size == '48'){
+       }if(height === '160height' && size === '48'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '165height' && size == '40'){
+       }if(height === '165height' && size === '40'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '165height' && size == '42'){
+       }if(height === '165height' && size === '42'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '165height' && size == '44'){
+       }if(height === '165height' && size === '44'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '165height' && size == '46'){
+       }if(height === '165height' && size === '46'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '165height' && size == '48'){
+       }if(height === '165height' && size === '48'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '170height' && size == '40'){
+       }if(height === '170height' && size === '40'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '170height' && size == '42'){
+       }if(height === '170height' && size === '42'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '170height' && size == '44'){
+       }if(height === '170height' && size === '44'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '170height' && size == '46'){
+       }if(height === '170height' && size === '46'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height == '170height' && size == '48'){
+       }if(height === '170height' && size === '48'){
         console.log(height, size)
         
         //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');

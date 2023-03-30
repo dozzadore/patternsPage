@@ -1,4 +1,4 @@
-import "./patternspages.css";
+import "../patternspages.css";
 
 
 const PatternPage04 = () => {

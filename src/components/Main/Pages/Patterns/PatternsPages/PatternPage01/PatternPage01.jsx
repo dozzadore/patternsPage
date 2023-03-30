@@ -1,5 +1,5 @@
-import "./patternspages.css";
-import img1 from "../patternsCards/helpers/01.jpg";
+import "../patternspages.css";
+import img1 from "../../patternsCards/helpers/01.jpg";
 import PatternsUl from "./patternsUl/PatternsUl";
 
 

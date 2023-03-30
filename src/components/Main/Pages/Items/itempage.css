@@ -22,7 +22,7 @@
 .thumbnail{
   padding-left: 20px;
 }
-.clicked {
+.thumbnail .Active {
   border: 1px solid rgb(65, 60, 60);
 }
 

@@ -11,12 +11,12 @@ import ItemPage03 from "./components/Main/Pages/Items/itemsPages/page03/ItemPage
 import ItemPage04 from "./components/Main/Pages/Items/itemsPages/page04/ItemPage04";
 import ItemPage05 from "./components/Main/Pages/Items/itemsPages/page05/ItemPage05";
 import ItemPage06 from "./components/Main/Pages/Items/itemsPages/page06/ItemPage06";
-import PatternPage01 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage01";
-import PatternPage02 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage02";
-import PatternPage03 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage03";
-import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage04";
-import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05";
-import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06";
+import PatternPage01 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage01/PatternPage01";
+import PatternPage02 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage02/PatternPage02";
+import PatternPage03 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage03/PatternPage03";
+import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage04/PatternPage04";
+import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05/PatternPage05";
+import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06/PatternPage06";
 
 function App() {
   return (

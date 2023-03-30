@@ -25,7 +25,7 @@ function ImageSlider() {
       <div className='flex_row'>
         {imgs.map((data,i)=>
         <div className="thumbnail" key={i} >
-          <img className={wordData.id = i ? "clicked":""} src={data.value} onClick={()=>handleClick(i)} alt="" />
+          <img className={wordData.id === i ? "Active":""} src={data.value} onClick={()=>handleClick(i)} alt="" />
         </div>
         )}
       </div>

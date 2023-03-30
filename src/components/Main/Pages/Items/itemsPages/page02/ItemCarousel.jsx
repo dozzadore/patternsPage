@@ -21,11 +21,11 @@ function ImageSlider() {
   }
   return (
     <div className="itemCarousel">
-      <img className='topImg' src={wordData.value} alt="" /> 
+      <img className='topImg' src={wordData.value}  /> 
       <div className='flex_row'>
         {imgs.map((data,i)=>
         <div className="thumbnail" key={i} >
-          <img className={wordData.id = i ? "clicked":""} src={data.value} onClick={()=>handleClick(i)} alt="" />
+          <img className={wordData.id == i ? "Active":""} src={data.value} onClick={()=>handleClick(i)} />
         </div>
         )}
       </div>
