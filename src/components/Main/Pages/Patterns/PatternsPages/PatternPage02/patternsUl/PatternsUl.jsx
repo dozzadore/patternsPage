@@ -1,6 +1,6 @@
+import { isDisabled } from "@testing-library/user-event/dist/utils/misc/isDisabled";
 import React from "react";
 import "../../patternspages.css";
-
 
 
 
@@ -12,9 +12,9 @@ const PatternsUl = () => {
         value1: '160height',
         value2: '165height',
         value3: '170height',
-        selectedRadioInput: '160height' 
+        selectedRadioInput: '' 
       });
-    const [data1, setData1] = React.useState({
+      const [data1, setData1] = React.useState({
         value1: '40',
         value2: '42',
         value3: '44',
@@ -23,22 +23,17 @@ const PatternsUl = () => {
         selectedRadioInput1: '' 
       });
 
-    function isDisabledButton(){
-        return data.selectedRadioInput === '' 
-          || data1.selectedRadioInput1 === ''
-      }
-
     function handleClick(e) {
-        e.preventDefault()
+        e.preventDefault(isDisabled)
         let height = data.selectedRadioInput;
         let size = data1.selectedRadioInput1;
        if(height === '160height' && size === '40'){
         console.log(height, size)
-        window.location.href='https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing';
+        //window.location.assign('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
        }if(height === '160height' && size === '42'){
         console.log(height, size)
         
-        window.location.href='https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing';
+        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
        }if(height === '160height' && size === '44'){
         console.log(height, size)
         
@@ -110,7 +105,7 @@ const PatternsUl = () => {
     }
   
     return(
-        <div className="selectlink"> 
+        <div class="selectlink"> 
             <fieldset className="patternsUlHeight">
                 <legend>Рост:</legend>
                 <div>
@@ -119,7 +114,6 @@ const PatternsUl = () => {
                     id="inRadioHeight1" 
                     name="height" 
                     value={data.value1} 
-                    checked={data}
                     onChange={showInputHeight}
                     />
                     <label >160</label>
@@ -181,7 +175,7 @@ const PatternsUl = () => {
                     name="size" 
                     value={data1.value4} 
                     onChange={showInputSize} />
-                    <label>46</label>
+                    <label for="louie">46</label>
                 </div>
                 <div>
                     <input 
@@ -191,14 +185,13 @@ const PatternsUl = () => {
                     value={data1.value5} 
                     onChange={showInputSize}
                     />
-                    <label>48</label>
+                    <label for="louie">48</label>
                 </div>
             </fieldset>
             <button 
             id="buttonPattern" 
             type="button" 
             onClick={handleClick}
-            disabled={isDisabledButton()}
             >button</button>
         </div>
     )

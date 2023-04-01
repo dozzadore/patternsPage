@@ -5,8 +5,14 @@ const Contacts = () => {
     return(
         <div className="Contacts">
             <div className='contactsContainer'>
-                Contacts div
-                Абцд еж
+                <div className="leftBoxContacts">
+                    <div>Whatsapp</div>
+                    <div>Phone</div>
+                    <div>Telegram</div>
+                    <div className="lefPContacts">Messengers</div>
+                </div>
+                <div className="midleBoxContacts"></div>
+                <div className="rightBoxContacts"></div>
             </div>
         </div>
     );

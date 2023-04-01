@@ -1,10 +1,15 @@
 import "../patternspages.css";
+import PatternsUl from "./patternsUl/PatternsUl";
+import img1 from "../../patternsCards/helpers/01.jpg";
 
 
 const PatternPage02 = () => {
     return(
         <div className="patternPageMain">
-           <p> 2</p>
+           <div className="patternImg"><img src={img1} alt="" /></div>
+           <div className="patternText">
+            <PatternsUl />
+           </div>
            
         </div>
     )
