@@ -56,7 +56,7 @@
   }
   .leftBoxVkP {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
     margin-left: 10px;
   }
  
@@ -68,6 +68,12 @@
     min-height: 200px;
     border-right: 1px solid black;
     border-left: 1px solid black;
+  }
+  .midleBoxContacts p {
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
   }
   .rightBoxContacts {
     width: 30%;
