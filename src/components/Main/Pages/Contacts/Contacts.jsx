@@ -4,7 +4,11 @@ import logoVk from "./images/logoVk.png";
 import logoWa from "./images/logoWa.png";
 
 
+
 const Contacts = () => {
+
+
+
     return(
         <div className="Contacts">
             <div className='contactsContainer'>
@@ -22,7 +26,7 @@ const Contacts = () => {
                     <div>Telegram</div>
                 </div>
                 <div className="midleBoxContacts">
-                    <p>Какое-то супер описание того, что я принимаю заказы по построению лекал</p>
+                    <p>Красткое описание <span>услуг по пошиву одежды и построению выкроек</span></p>
                 </div>
                 <div className="rightBoxContacts"></div>
             </div>

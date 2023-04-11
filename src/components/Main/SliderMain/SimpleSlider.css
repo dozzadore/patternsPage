@@ -10,7 +10,10 @@
     height: 400px;
  
 }
-
+.slick-slider {
+    width: 100%;
+    height: 100%;
+}
 
 
 .slider-box img {

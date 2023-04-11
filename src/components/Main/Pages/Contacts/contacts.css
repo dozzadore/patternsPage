@@ -69,12 +69,7 @@
     border-right: 1px solid black;
     border-left: 1px solid black;
   }
-  .midleBoxContacts p {
-    -ms-user-select: none;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-  }
+ 
   .rightBoxContacts {
     width: 30%;
     min-height: 200px;
@@ -90,4 +85,10 @@
     -webkit-box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
 -moz-box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
 box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
+  }
+
+  #zoomC {
+    /* (A) DIMENSIONS */
+    width: 600px;
+    height: 338px;
   }

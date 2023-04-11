@@ -6,7 +6,10 @@ import img3 from "./imageCarousel/image03.jpg";
 
 
 
+
 function ImageSlider() {
+
+ 
   
   const imgs=[
     {id:0,value:img1},
@@ -21,7 +24,9 @@ function ImageSlider() {
   }
   return (
     <div className="itemCarousel">
+    <div  id="img-container">
       <img className='topImg' src={wordData.value} alt=''/> 
+      </div>
       <div className='flex_row'>
         {imgs.map((data,i)=>
         <div className="thumbnail" key={i} >

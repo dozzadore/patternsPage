@@ -5,6 +5,7 @@ const Header = () => {
 
     return(
         <div className="Header">
+            <div className="mainLogo">maneken<span>project</span></div>
             <div className="headerIn">
                 <div className='headerBox'>
                     <NavLink to="/" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>

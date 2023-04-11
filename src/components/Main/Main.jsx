@@ -9,7 +9,7 @@ const Main = () => {
             <div className='mainContainer'>
               <div className="right-box">
                 <div className="main-text">
-                    <div className="topText"><h1 className="h1-1">STYLE</h1>
+                    <div className="topText"><h1 className="h1-1">ArtNature</h1>
                     <p>FOR</p>
                     <h1 className="h1-2">YOU</h1>
                     </div>

@@ -1,28 +1,34 @@
+
+
 .headerBox {
     height: 22px;
-    display: grid;
+    display: flex;
     align-items: center;
+    justify-content: center;
     text-align: center;  
     margin-left: 30px;
   }
   
 .Header {
+  font-family: 'Josefin Sans', sans-serif;
     align-content: center;
-    height: 100px;
+    height: 120px;
     width: 100%;
     font-size: 17px;
     color: white;
     margin: 0;
     display: grid;
     justify-items: end;
+    border-bottom: 1px solid #0fc5bcb4;
   }
 .headerIn {
-    background-color: #c50f73b4;
+    background-color: #0fc5bcb4;
     width: 950px;
     height: 30px;
-    display: grid;
+    display: flex;
     column-gap: 55px;
     justify-content: center;
+    align-items: center;
     grid-template-columns:auto auto auto auto;
     top: 0;
   }
@@ -34,3 +40,40 @@
     height: 25px;
     text-decoration: none; 
   }
+
+
+.mainLogo{
+    font-size: 100px;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+  animation: glitch 1s linear infinite;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+}
+.mainLogo span {
+  font-size: 20px;
+}
+
+@keyframes glitch{
+  2%,64%{
+    transform: translate(2px,0) skew(0deg);
+  }
+  4%,60%{
+    transform: translate(-2px,0) skew(0deg);
+  }
+  62%{
+    transform: translate(0,0) skew(5deg); 
+  }
+}
+
+.mainLogo:before,
+.mainLogo:after{
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
