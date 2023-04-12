@@ -21,7 +21,7 @@ const Contacts = () => {
                     </div>
                     <div>
                         <img src={logoWa} alt='' className="leftBoxImg" />
-                        <p>Whatsapp</p>
+                        <div className="leftBoxWup"><p>Whatsapp</p></div>
                     </div>
                     <div>Telegram</div>
                 </div>

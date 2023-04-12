@@ -18,6 +18,7 @@
     height: 280px;
     cursor: pointer;
     transition: 0.5s;
+    border: 1px solid rgb(165, 32, 158);
 }
 .cardContainerPattern .imgCard:hover {
     transform: scale(1.1);

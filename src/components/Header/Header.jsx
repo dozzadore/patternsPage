@@ -5,7 +5,8 @@ const Header = () => {
 
     return(
         <div className="Header">
-            <div className="mainLogo">maneken<span>project</span></div>
+            <div className="mainLogo"><p>maneken<span>project</span></p></div>
+            <div className="cubeHeader"><div className="cubeHead1"><div className="cubeHead2"></div></div></div>
             <div className="headerIn">
                 <div className='headerBox'>
                     <NavLink to="/" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
