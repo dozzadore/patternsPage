@@ -16,9 +16,12 @@
   }
   
 .Header {
-  font-family: 'Josefin Sans', sans-serif;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-family: 'Josefin Sans', sans-serif;
     align-content: center;
-    height: 120px;
+    height: 20vh;
     width: 100%;
     font-size: 20px;
     color: white;
@@ -27,6 +30,7 @@
     justify-items: end;
     border-bottom: 1px solid #0fc5bcb4;
   }
+
 .headerIn {
     background-color: #0fc5bcb4;
     position: relative;
@@ -34,7 +38,7 @@
     width: 950px;
     height: 30px;
     display: flex;
-    column-gap: 55px;
+    gap: 55px;
     justify-content: center;
     align-items: center;
     grid-template-columns:auto auto auto auto;
@@ -120,4 +124,53 @@
   height: 70px;
   background: transparent;
   border: 1px solid white;
+}
+
+
+@media all and (min-width: 320px) and (max-width: 600px) {
+  .Header {
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cubeHeader {
+    display: none;
+  }
+  .headerIn {
+    position: relative;
+    justify-content: space-around;
+    z-index: 2;
+    max-width: 100vw;
+    min-height: 20vh;
+    display: flex;
+    gap: 0px;
+    padding: 5px;
+  }
+  .mainLogo {
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .mainLogo p {
+    font-size: 22px;
+  }
+
+  .mainLogo span {
+    font-size: 16px;
+  }
+  .headerBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    width: 20vw;
+    height: auto;
+  }
+
 }

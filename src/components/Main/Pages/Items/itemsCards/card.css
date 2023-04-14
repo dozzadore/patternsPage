@@ -2,7 +2,7 @@
 .cardContainerItems {
     display: flex;
     width: 250px;
-    height: 280px;
+    height: auto;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -15,7 +15,7 @@
     display: flex;
     position: absolute;
     width: 250px;
-    height: 280px;
+    height: auto;
     transition: 0.5s;
     border: 1px solid rgb(165, 32, 158);
 }
@@ -43,5 +43,5 @@
 
 .cardContainerItems a {
     display: flex;
-    height: 280px;
+    min-height: 300px;
 }

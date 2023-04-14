@@ -50,8 +50,10 @@ font-size: 2rem;
 .patternImg {
   max-width: 500px;
   max-height: 800px;
+  
 }
 .patternImg img {
+  border: 1px solid rgb(165, 32, 158);
   width: 100%;
   height: auto;
   margin: 50px;
@@ -79,7 +81,7 @@ select {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  font: 1rem 'Fira Sans', sans-serif;
+  font: 30px 'Fira Sans', sans-serif;
   margin: 0;
 }
 fieldset {
@@ -87,9 +89,7 @@ fieldset {
  width: 200px;
 }
 
-.patternsUl Legend {
-  color: rgb(3, 3, 3);
-}
+
 
 .selectlink input {
   margin: 0.4rem;
@@ -98,6 +98,11 @@ fieldset {
 
 
 #buttonPattern {
-  widows: 250px;
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
   cursor: pointer;
+  color: black;
+  font-size: 30px;
+  background-color: #0fc5bcb4;
 }

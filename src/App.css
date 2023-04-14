@@ -13,15 +13,24 @@
 body {
   font-family: sans-serif;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   background-color: rgb(65, 62, 66);
 }
 
 .App {
-  display: grid;
-  grid-template-rows:max-content;
-  widows: 100%;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+}
+
+@media all and (min-width: 320px){
+  .App {
+    width: 100vw;
+    min-height: 100vh;
+  }
 }
 
 

@@ -7,7 +7,6 @@ const Main = () => {
     return(
         <div className="Main">
             <div className='mainContainer'>
-              <div className="right-box">
                 <div className="main-text">
                     <div className="topText"><h1 className="h1-1"> your</h1>
                     <p>STYLE</p>
@@ -20,11 +19,11 @@ const Main = () => {
                     <div className="main-to">
                         <div className="main-in-img">
                             <SimplSlider className="simplslider"/>
+                            <div className="boxLine"></div>
+                            <div className="boxLine1"></div>
                         </div>
                     </div>
                 </div>
-            </div>
-                
             </div>
         </div>
     );
