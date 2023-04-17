@@ -24,8 +24,8 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div className='headerBox'>
-                    <NavLink to="/contacts" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
-                            <strong>Contacts</strong>
+                    <NavLink to="/info" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
+                            <strong>Info</strong>
                     </NavLink>
                 </div>
             </div>

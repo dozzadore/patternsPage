@@ -1,18 +1,19 @@
 import { Link } from "react-router-dom";
-import "./contacts.css";
+import "./info.css";
 import logoVk from "./images/logoVk.png";
 import logoWa from "./images/logoWa.png";
 
 
 
-const Contacts = () => {
+const Info = () => {
 
 
 
     return(
-        <div className="Contacts">
-            <div className='contactsContainer'>
+        <div className="Info">
+            <div className='InfoContainer'>
                 <div className="leftBoxContacts">
+                    <div ><span>Контакты</span></div>
                     <div>
                         <Link to="https://vk.com/elena_artnature">
                             <img src={logoVk} alt='' className="leftBoxImg" />
@@ -23,10 +24,10 @@ const Contacts = () => {
                         <img src={logoWa} alt='' className="leftBoxImg" />
                         <div className="leftBoxWup"><p>Whatsapp</p></div>
                     </div>
-                    <div>Telegram</div>
                 </div>
-                <div className="midleBoxContacts">
-                    <p>Красткое описание <span>услуг по пошиву одежды и построению выкроек</span></p>
+                <div className="midleBoxInfo">
+                    <div><span>Важно!</span></div>
+                    <p>Красткое описание услуг по пошиву одежды и построению выкроек</p>
                 </div>
                 <div className="rightBoxContacts"></div>
             </div>
@@ -34,4 +35,4 @@ const Contacts = () => {
     );
 };
 
-export default Contacts;
+export default Info;
