@@ -4,6 +4,7 @@
     width: 100%;
     min-height: 80vh;
     display: flex;
+    background-image: linear-gradient(135deg, rgba(253, 253, 253, 0.377) 20%, rgba(14, 13, 13, 0.397) 70%);
   }
   
 .InfoContainer {
@@ -11,7 +12,6 @@
     justify-content: space-around;
     min-height: 100%;
     width: 100%;
-    background-image: linear-gradient(135deg, rgba(253, 253, 253, 0.377) 20%, rgba(14, 13, 13, 0.397) 70%);
     align-items: flex-start;
     text-align: center;
   }
@@ -84,7 +84,7 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
-    width: 40%;
+    width: 70%;
     border-right: 1px solid black;
     border-left: 1px solid black;
     min-height: 100%;
@@ -118,4 +118,34 @@
     -webkit-box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
 -moz-box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
 box-shadow: 0px 1px 8px 9px rgba(201, 9, 204, 0.2);
+  }
+
+  @media all and (min-width: 320px) and (max-width: 600px) {
+    .InfoContainer {
+      display: flex;
+      flex-direction: column-reverse;
+      height: 100%;
+      width: 100%;
+      align-items: flex-start;
+      text-align: center;
+    }
+    .leftBoxVkP {
+      display: flex;
+      align-items: flex-end;
+      margin-left: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .leftBoxWup {
+      display: flex;
+      align-items: flex-end;
+      margin-left: 10px;
+      font-size: 30px;
+    }
+    .midleBoxInfo {
+ 
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      width: 100%;
+    }
   }

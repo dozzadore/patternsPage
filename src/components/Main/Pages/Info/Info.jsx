@@ -29,7 +29,6 @@ const Info = () => {
                     <div><span>Важно!</span></div>
                     <p>Красткое описание услуг по пошиву одежды и построению выкроек</p>
                 </div>
-                <div className="rightBoxContacts"></div>
             </div>
         </div>
     );
