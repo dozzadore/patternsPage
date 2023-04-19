@@ -28,7 +28,6 @@
     margin: 0;
     display: grid;
     justify-items: end;
-    border-bottom: 1px solid #0fc5bcb4;
   }
 
 .headerIn {
@@ -142,7 +141,7 @@
   .headerIn {
     position: relative;
     justify-content: space-around;
-    z-index: 2;
+    z-index: 5;
     max-width: 100vw;
     min-height: 20vh;
     display: flex;

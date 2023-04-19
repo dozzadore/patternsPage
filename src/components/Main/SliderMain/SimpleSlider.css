@@ -1,45 +1,44 @@
 .slider-main {
-    width: 330px;
+
     height: 100%;
 }
 
 .slider-main .slick-list {
-    width: 330px;
+
     height: 100%;
 }
 
 .slider-main .slick-track {
-    width: 330px;
+
     height: 100%;
 }
 
 .slider-box img {
-    width: 330px;
+
     height: 100%;
 }
 
 .slider-box {
-    width: 330px;
+
     height: 100%;
 }
 .slick-slide {
-    width: 330px;
+
     height: 100%;
 }
 .slick-slider {
-    width: 330px;
-    height: auto;
+    height: 100%;
 }
 
 
 .slider-box img {
-    width: 330px;
+    width: 100%;
     height: 100%;
 
 }
 
 .slider-box a {
-    width: 330px;
+
     height: 100%;
 }
 
