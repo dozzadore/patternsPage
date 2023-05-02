@@ -30,70 +30,14 @@
   .main-text {
     position: relative;
     display: flex;
-    max-width: 70vw;
+   width: 70vw;
     font-size: 50px;
-    padding: 60px;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
     height: 100%;
   }
-  .topText {
-    z-index: 2;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .topText p {
-    z-index: 6;
-    position: relative;
-    text-align: center;
-    right: -30px;
-    font-size: 70px;
-    color: rgb(165, 32, 158);
-    width: 200px;
-    height: 90px;
-    background: black;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-  }
+
  
-  .main-text .h1-1 {
-    z-index: 5;
-    position: absolute;
-    text-align: center;
-    display: flex;
-    width: 240px;
-    height: 220px;
-    font-size: 40px;
-    border: 1px solid rgb(165, 32, 158);
-    transform: rotateZ(-30deg);
-    background-color: rgba(165, 32, 158, 0.267);
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none;
-  }
-
-
-  .box-h1 {
-  text-align: center;
-  font-size: 40px;
-  height: 43px;
- }
- .main-box-color {
-  height: 35%;
-  width: 100%;
- }
 
  .main-img {
   position: relative;
@@ -177,6 +121,7 @@
 }
 
 .shadowLine {
+  z-index: 2;
   position: relative;
   width: 100%;
   height: 2px;
@@ -202,6 +147,8 @@
           user-select: none;
 }
 .mainContainer1 img {
+  position: relative;
+  max-width: 100%;
   height: 100%;
   pointer-events: none;
 }
@@ -227,12 +174,16 @@
           user-select: none;
 }
 .mainContainer2 img {
+  z-index: 0;
+  position: relative;
+  max-width: 100%;
   height: 100%;
   pointer-events: none;
 }
 .mainContainer2 span {
+  z-index: 2;
   position: relative;  
-  left: 100px;
+  left: 50px;
 }
 
 @media all and (min-width: 320px) and (max-width: 600px) {
@@ -277,6 +228,29 @@ display: none;
   }
   .boxLine1 {
 display: none;
+  }
+  .mainContainer1 {
+    max-width: 100vw;
+  }
+  .mainContainer2 {
+    max-width: 100vw;
+    flex-direction: row-reverse;
+  }
+  .mainContainer1 img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  .mainContainer2 img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  .mainContainer2 span {
+    position: relative;  
+    left: 0;
   }
 
 }
