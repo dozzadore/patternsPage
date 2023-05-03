@@ -1,11 +1,15 @@
 import { NavLink } from "react-router-dom";
 import "./header.css";
+import imgLogo from "./logo.png";
 
 const Header = () => {
 
     return(
         <div className="Header">
-            <div className="mainLogo"><p>maneken<span>project</span></p></div>
+            <img className="imgLogo" src={imgLogo} alt="" />
+            <div className="mainLogo">
+                <p>maneken<span>project</span></p>
+            </div>
             <div className="cubeHeader"><div className="cubeHead1"><div className="cubeHead2"></div></div></div>
             <div className="headerIn">
                 <div className='headerBox'>
