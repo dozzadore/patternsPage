@@ -11,7 +11,8 @@ const Info = () => {
 
     return(
         <div className="Info">
-            <div className='InfoContainer'>
+            <div className="shadowLine"></div>
+            <div className='infoContainer'>
                 <div className="leftBoxContacts">
                     <div ><span>Контакты</span></div>
                     <div>
