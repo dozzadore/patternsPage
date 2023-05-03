@@ -152,9 +152,12 @@
   height: 100%;
   pointer-events: none;
 }
-.mainContainer1 span {
+.mainContainer1 .mainContainerSpan {
   position: relative;
-  left: -100px;
+  display: flex;
+  z-index: 2;
+  right: 100px;
+  width: 100vw;
 }
 
 .mainContainer2 {
@@ -254,3 +257,4 @@ display: none;
   }
 
 }
+

@@ -40,7 +40,16 @@ function App() {
             <Route path="/patterns/patternpage04" element={<PatternPage04 />}/>
             <Route path="/patterns/patternpage05" element={<PatternPage05 />}/>
             <Route path="/patterns/patternpage06" element={<PatternPage06 />}/>
-      </Routes>
+        </Routes>
+        <div class="divManeken">
+        <p class="p1">M</p>   
+        <p class="p2">A</p>  
+        <p class="p3">N</p>  
+        <p class="p4">E</p>  
+        <p class="p5">K</p>  
+        <p class="p6">E</p>  
+        <p class="p7">N</p>  
+        </div>
       </Router>
     </div>
   );
