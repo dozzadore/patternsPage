@@ -17,6 +17,8 @@ import PatternPage03 from "./components/Main/Pages/Patterns/PatternsPages/Patter
 import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage04/PatternPage04";
 import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05/PatternPage05";
 import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06/PatternPage06";
+import DivManeken from "./components/DivManeken/DivManeken";
+
 
 function App() {
   return (
@@ -41,15 +43,7 @@ function App() {
             <Route path="/patterns/patternpage05" element={<PatternPage05 />}/>
             <Route path="/patterns/patternpage06" element={<PatternPage06 />}/>
         </Routes>
-        <div class="divManeken">
-        <p class="p1">M</p>   
-        <p class="p2">A</p>  
-        <p class="p3">N</p>  
-        <p class="p4">E</p>  
-        <p class="p5">K</p>  
-        <p class="p6">E</p>  
-        <p class="p7">N</p>  
-        </div>
+        <DivManeken />
       </Router>
     </div>
   );
