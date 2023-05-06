@@ -40,3 +40,14 @@
       row-gap: 22px;
     }
   }
+
+  @media all and (min-width: 610px) and (max-width: 1000px) {
+    .itemCard {
+      padding: 5px;
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      gap: 10px;
+      row-gap: 22px;
+    }
+  }

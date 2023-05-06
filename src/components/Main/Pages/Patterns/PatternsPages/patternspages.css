@@ -2,8 +2,11 @@
   display: flex;
   justify-content:space-around;
   flex-direction: row;
+  align-items: center;
+  z-index: 2;
   gap: 50px;
   width: 100%;
+  min-height: 100%;
   background-image: linear-gradient(133deg, rgba(253, 253, 253, 0.377), rgba(14, 13, 13, 0.397));
 }
 

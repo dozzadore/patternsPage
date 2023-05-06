@@ -54,7 +54,22 @@
     .cardContainerPattern .imgCard {
         position: absolute;
         width: 150px;
-        min-height: 30vh;
+        transition: 0.5s;
+    }
+}
+
+@media all and (min-width: 610px) and (max-width: 1000px) {
+    .cardContainerPattern {
+        width: 150px;
+        height: 200px;
+    }
+    .cardContainerPattern a {
+        width: 150px;
+        min-height: 100%;
+    }
+    .cardContainerPattern .imgCard {
+        position: absolute;
+        width: 150px;
         transition: 0.5s;
     }
 }

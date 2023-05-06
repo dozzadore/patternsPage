@@ -12,7 +12,7 @@ const PatternsUl = () => {
         value1: '160height',
         value2: '165height',
         value3: '170height',
-        selectedRadioInput: '160height' 
+        selectedRadioInput: ''
       });
     const [data1, setData1] = React.useState({
         value1: '40',
@@ -119,7 +119,6 @@ const PatternsUl = () => {
                     id="inRadioHeight1" 
                     name="height" 
                     value={data.value1} 
-                    checked={data}
                     onChange={showInputHeight}
                     />
                     <label >160</label>

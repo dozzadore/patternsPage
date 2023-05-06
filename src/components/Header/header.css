@@ -180,3 +180,19 @@
   }
 
 }
+
+@media all and (min-width: 610px) and (max-width: 1000px){
+  .headerIn {
+    width: 100%;
+  }
+  .cubeHeader {
+    display: none;
+  }
+  .mainLogo p {
+    font-size: 20px;
+  }
+
+  .mainLogo span {
+    font-size: 12px;
+  }
+}
