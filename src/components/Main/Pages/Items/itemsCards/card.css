@@ -40,7 +40,7 @@
 
 
 .cardContainerItems a {
-    display: flex;
+    text-decoration: none;
     min-height: 300px;
 }
 

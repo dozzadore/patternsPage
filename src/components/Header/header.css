@@ -49,7 +49,7 @@
 
  
  
-  a {
+  .headerIn a {
     cursor: pointer;
     height: 25px;
     text-decoration: none; 

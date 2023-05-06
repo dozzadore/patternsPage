@@ -38,7 +38,7 @@
 
 
 .cardContainerPattern a {
-
+    text-decoration: none;
     min-height: 300px;
 }
 

@@ -120,6 +120,7 @@ const PatternsUl = () => {
                     name="height" 
                     value={data.value1} 
                     onChange={showInputHeight}
+                    defaultChecked={true}
                     />
                     <label >160</label>
                 </div>

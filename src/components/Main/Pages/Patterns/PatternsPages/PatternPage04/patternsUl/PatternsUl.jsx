@@ -119,7 +119,7 @@ const PatternsUl = () => {
                     id="inRadioHeight1" 
                     name="height" 
                     value={data.value1} 
-                    checked={data}
+                    defaultChecked={true}
                     onChange={showInputHeight}
                     />
                     <label >160</label>
