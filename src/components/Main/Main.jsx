@@ -6,11 +6,14 @@ import img2 from "./images/02.png";
 
 
 const Main = () => {
+
+ 
     return(
         <div className="Main">
             <div className="shadowLine"></div>
             <div className='mainContainer'>
                 <div className="main-text">
+                    
                     <p className="bottomTextMiddle">Сайт в разработке</p>  
                 </div>
                 <div className="main-img">
