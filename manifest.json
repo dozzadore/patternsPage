@@ -13,7 +13,7 @@
       "sizes": "16x16"
     }
   ],
-  "start_url":"https://dozzadore.github.io/patternsPage/",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
