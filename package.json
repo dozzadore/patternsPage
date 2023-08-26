@@ -1,12 +1,13 @@
 {
   "name": "react-carousel",
-  "homepage": "https://dozzadore.github.io/Maneken/",
+  "homepage": "https://dozzadore.github.io/patternsPage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "caniuse-lite": "^1.0.30001523",
     "jquery": "^3.6.4",
     "jquery-zoom": "^1.7.21",
     "js-image-zoom": "^0.7.0",
@@ -46,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
