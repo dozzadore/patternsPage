@@ -12,7 +12,7 @@ const PatternsUl = () => {
         value1: '160height',
         value2: '165height',
         value3: '170height',
-        selectedRadioInput: '160height' 
+        selectedRadioInput: ''
       });
     const [data1, setData1] = React.useState({
         value1: '40',
@@ -30,72 +30,67 @@ const PatternsUl = () => {
 
     function handleClick(e) {
         e.preventDefault()
-        let height = data.selectedRadioInput;
-        let size = data1.selectedRadioInput1;
-       if(height === '160height' && size === '40'){
-        console.log(height, size)
-        window.location.href='https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing';
-       }if(height === '160height' && size === '42'){
-        console.log(height, size)
-        
-        window.location.href='https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing';
-       }if(height === '160height' && size === '44'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '160height' && size === '46'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '160height' && size === '48'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '165height' && size === '40'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '165height' && size === '42'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '165height' && size === '44'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '165height' && size === '46'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '165height' && size === '48'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '170height' && size === '40'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '170height' && size === '42'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '170height' && size === '44'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '170height' && size === '46'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }if(height === '170height' && size === '48'){
-        console.log(height, size)
-        
-        //window.location.assign('https://drive.google.com/file/d/1Yv1oZeuxQ4yMylasQtn6Q2LeEd9JIN5c/view?usp=sharing');
-       }
-        
-
-        
        
+       if(data.value1 && data1.value1){
+        console.log(data.value1, data1)
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value1 && data1.value2){
+        console.log(data.value1, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value1 && data1.value3){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value1 && data1.value4){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value1 && data1.value5){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value2 && data1.value1){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value2 && data1.value2){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value2 && data1.value3){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value2 && data1.value4){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value2 && data1.value5){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value3 && data1.value1){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value3 && data1.value2){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value3 && data1.value3){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value3 && data1.value4){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }else if(data.value1 && data1.value5){
+        console.log(data, data1)
+        
+        window.open('https://drive.google.com/file/d/1yBKwwwENnz6PZpYM73-99EwYdJSueokK/view?usp=sharing');
+       }
       }
 
     function showInputHeight(e){
@@ -108,7 +103,7 @@ const PatternsUl = () => {
         //console.log(e.target.value)
         setData1({ ...data1, selectedRadioInput1: e.target.value });
     }
-  
+    
     return(
         <div className="selectlink"> 
             <fieldset className="patternsUlHeight">
@@ -119,8 +114,8 @@ const PatternsUl = () => {
                     id="inRadioHeight1" 
                     name="height" 
                     value={data.value1} 
-                    defaultChecked={true}
                     onChange={showInputHeight}
+                    
                     />
                     <label >160</label>
                 </div>
