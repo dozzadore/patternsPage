@@ -14,12 +14,11 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+  
     text-align: center;
-    margin-top:50px ;
   }
   .flex_row{
-    justify-content: center;
+    justify-content: flex-start;
     display: flex;
     padding-top: 5px;
   }
@@ -39,7 +38,7 @@
 }
 .topImg {
   width: 450px;
-  height: auto;
+  height: 100%;
   border: 1px solid rgb(165, 32, 158)
 }
 .thumbnail img {
@@ -49,7 +48,7 @@
 }
 
 .itemPageRight {
-  width: 500px;
+  width: 40%;
   height: 600px;
   background-color: rgba(189, 106, 190, 0.185);
 }
