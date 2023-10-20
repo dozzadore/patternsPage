@@ -1,0 +1,53 @@
+
+ .Dialogs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+ }
+ .dialogItems {
+    width: 20%;
+ }
+ .dialogItem {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+ }
+ .dialogItems .active {
+    color: white;
+ }
+ .dialogItem::after {
+    content: "";
+    width: 80%;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+ }
+ .messages {
+    width: 40%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+ }
+ .message {
+    margin: 2px;
+    min-width: 0;
+    height: auto;
+    background: white;
+    opacity: 0.5;
+ }
+
+ .dialogItems a {
+   cursor: pointer;
+   text-decoration: none; 
+   color: rgb(152, 241, 241);
+ }

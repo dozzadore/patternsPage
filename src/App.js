@@ -18,6 +18,7 @@ import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/Patter
 import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05/PatternPage05";
 import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06/PatternPage06";
 import DivManeken from "./components/DivManeken/DivManeken";
+import Dialogs from "./components/Main/Dialogs/Dialogs";
 
 
 function App() {
@@ -26,10 +27,11 @@ function App() {
       <Router>
         <Header />
         <Routes>
-            <Route path="/*" element={<Main />} />
+            <Route path="/" element={<Main />} />
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
+            <Route path="/dialogs" element={<Dialogs />} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>
