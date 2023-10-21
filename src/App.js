@@ -2,6 +2,7 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
+import Posts from "./components/Main/Posts/Posts";
 import Items from "./components/Main/Pages/Items/Items";
 import Info from "./components/Main/Pages/Info/Info";
 import Patterns from "./components/Main/Pages/Patterns/Patterns";
@@ -32,6 +33,7 @@ function App() {
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
             <Route path="/dialogs" element={<Dialogs />} />
+            <Route path="/posts" element={<Posts />} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>

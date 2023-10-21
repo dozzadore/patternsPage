@@ -23,6 +23,11 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div className='headerBox'>
+                    <NavLink to="/posts" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
+                        <strong>Posts</strong>
+                    </NavLink>
+                </div>
+                <div className='headerBox'>
                     <NavLink to="/items" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Items</strong>
                     </NavLink>
