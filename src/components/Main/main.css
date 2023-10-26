@@ -120,16 +120,7 @@
   top: -190%;
 }
 
-.shadowLine {
-  z-index: 2;
-  position: relative;
-  width: 100%;
-  height: 2px;
-  -webkit-box-shadow: 0px 2px 29px 3px #0fc5bcb4;
-  -moz-box-shadow: 0px 2px 29px 3px #0fc5bcb4;
-  box-shadow: 0px 2px 29px 3px #0fc5bcb4;
-  background: #0fc5bcb4;
-}
+
 
 .mainContainer1 {
   width: 100%;

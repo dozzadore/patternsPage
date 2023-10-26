@@ -2,7 +2,6 @@ import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
-import Posts from "./components/Main/Posts/Posts";
 import Items from "./components/Main/Pages/Items/Items";
 import Info from "./components/Main/Pages/Info/Info";
 import Patterns from "./components/Main/Pages/Patterns/Patterns";
@@ -18,8 +17,10 @@ import PatternPage03 from "./components/Main/Pages/Patterns/PatternsPages/Patter
 import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage04/PatternPage04";
 import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05/PatternPage05";
 import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06/PatternPage06";
-import DivManeken from "./components/DivManeken/DivManeken";
+import DivManeken from "./components/OptionComponents/DivManeken/DivManeken";
 import Dialogs from "./components/Main/Dialogs/Dialogs";
+import ShadowLine from "./components/OptionComponents/ShadowLine/ShadowLine";
+import Profile from "./components/Main/Profile/Profile";
 
 
 function App() {
@@ -27,13 +28,14 @@ function App() {
     <div className="App">
       <Router>
         <Header />
+        <ShadowLine />
         <Routes>
             <Route path="/" element={<Main />} />
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
             <Route path="/dialogs" element={<Dialogs />} />
-            <Route path="/posts" element={<Posts />} />
+            <Route path="/profile" element={<Profile />} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>

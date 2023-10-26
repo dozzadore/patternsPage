@@ -6,7 +6,6 @@ import { project } from "./patternsCards/helpers/cardsProject";
 const Patterns = () => {
     return(
         <div className="Patterns">
-            <div className="shadowLine"></div>
             <div className="patternsContainer">
                 <ul className="patternsCard"> 
                     {project.map((project, index) => {
