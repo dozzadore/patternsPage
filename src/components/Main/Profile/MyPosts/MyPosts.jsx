@@ -5,21 +5,26 @@ import Post from "./Post/Post";
 
 const MyPosts = (props) => {
 
-    let PostData = [
+    let PostsData = [
         {id: 1, message: "Hi hey man", likesCount: 11},
         {id: 2, message: "qrfqf qwfwqf", likesCount: 14}
     ]
 
+    let PostsElements = PostsData.map( posts => <Post message={posts.message } likes={posts.likesCount}/>)
+
     return (
         <div className="myposts">
-             My posts
             <div>
+                My posts
                 <div>
                     <textarea   textarea name="" id="" ></textarea>
                 </div>
                 <button>Add post</button>
             </div>
-            <Post message={PostData[0].message}/>
+            <div>
+                {PostsElements}
+            </div>
+            
         </div>
     )
 }
