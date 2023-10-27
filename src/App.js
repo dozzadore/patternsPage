@@ -23,9 +23,13 @@ import ShadowLine from "./components/OptionComponents/ShadowLine/ShadowLine";
 import Profile from "./components/Main/Profile/Profile";
 
 
-function App() {
+
+
+
+function App(props) {
   return (
     <div className="App">
+      
       <Router>
         <Header />
         <ShadowLine />
@@ -34,8 +38,8 @@ function App() {
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
-            <Route path="/dialogs" element={<Dialogs />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} />} />
+            <Route path="/profile" element={<Profile state={props.state.profilePage} />} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>

@@ -6,10 +6,14 @@ import "./profile.css";
 
 const Profile = (props) => {
 
+    
+
     return (
+        
         <div className="profile">
+            
             <ProfileInfo />
-            <MyPosts />
+            <MyPosts posts={props.state.posts}/>
         </div>
     )
 }
