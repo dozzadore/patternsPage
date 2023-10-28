@@ -1,19 +1,19 @@
+import Friends from "./Friends/Friends";
 import MyPosts from "./MyPosts/MyPosts";
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
-import "./profile.css";
+import style from "./profile.module.css";
 
 
 
 const Profile = (props) => {
 
-    
 
     return (
         
-        <div className="profile">
-            
+        <div className={style.profile}>
             <ProfileInfo />
-            <MyPosts posts={props.state.posts}/>
+            <Friends state={props.state.friends}/>
+            <MyPosts posts={props.state.profilePage.posts}/>
         </div>
     )
 }

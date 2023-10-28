@@ -1,10 +1,10 @@
-import "./shadowline.css";
+import style from "./shadowline.module.css";
 
 
 const ShadowLine = () => {
 
     return(
-        <div className="shadowLine">
+        <div className={style.shadowLine}>
             
         </div>
     );

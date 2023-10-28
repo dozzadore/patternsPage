@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../itempage.css';
+import style from '../../itempage.module.css';
 import img1 from "./imageCarousel/image01.jpg";
 import img2 from "./imageCarousel/image02.jpg";
 import img3 from "./imageCarousel/image03.jpg";
@@ -20,11 +20,11 @@ function ImageSlider() {
     setWordData(wordSlider)
   }
   return (
-    <div className="itemCarousel">
-      <img className='topImg' src={wordData.value} alt="" /> 
-      <div className='flex_row'>
+    <div className={style.itemCarousel}>
+      <img className={style.topImg} src={wordData.value} alt="" /> 
+      <div className={style.flex_row}>
         {imgs.map((data,i)=>
-        <div className="thumbnail" key={i} >
+        <div className={style.thumbnail} key={i} >
           <img className={wordData.id === i ? "Active":""} src={data.value} onClick={()=>handleClick(i)} alt="" />
         </div>
         )}

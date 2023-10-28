@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "./SimpleSlider.css";
 import { Link } from "react-router-dom";
 
 import img01 from "./Images/01.jpg";

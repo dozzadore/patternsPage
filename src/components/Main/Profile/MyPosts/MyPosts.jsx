@@ -1,4 +1,4 @@
-import "./myposts.css";
+import style from "./myposts.module.css";
 import Post from "./Post/Post";
 
 
@@ -10,7 +10,7 @@ const MyPosts = (props) => {
     let PostsElements = props.posts.map( posts => <Post message={posts.message } likes={posts.likesCount} key={posts.id}/>)
 
     return (
-        <div className="myposts">
+        <div className={style.myposts}>
             
             <div>
                 My posts
@@ -19,7 +19,7 @@ const MyPosts = (props) => {
                 </div>
                 <button>Add post</button>
             </div>
-            <div>
+            <div className={style.posts}>
                 {PostsElements}
             </div>
             

@@ -1,13 +1,14 @@
-import "../patternspages.css";
-import PatternsUl from "./patternsUl/PatternsUl";
+import style from "../patternspages.module.css";
 import img1 from "../../patternsCards/helpers/01.jpg";
+import PatternsUl from "./patternsUl/PatternsUl";
 
 
-const PatternPage06 = () => {
+const PatternPage01 = () => {
+    
     return(
-        <div className="patternPageMain">
-           <div className="patternImg"><img src={img1} alt="" /></div>
-           <div className="patternText">
+        <div className={style.patternPageMain}>
+           <div className={style.patternImg}><img src={img1} alt="" /></div>
+           <div className={style.patternText}>
             <PatternsUl />
            </div>
            
@@ -15,4 +16,4 @@ const PatternPage06 = () => {
     )
 }
 
-export default PatternPage06;
+export default PatternPage01;

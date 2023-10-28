@@ -1,43 +1,43 @@
 import { NavLink } from "react-router-dom";
-import "./header.css";
+import style from "./header.module.css";
 import imgLogo from "./logo.png";
 
 const Header = () => {
 
     return(
-        <div className="Header">
-            <img className="imgLogo" src={imgLogo} alt="" />
-            <div className="mainLogo">
+        <div className={style.Header}>
+            <img className={style.imgLogo} src={imgLogo} alt="" />
+            <div className={style.mainLogo}>
                 <p>maneken<span>project</span></p>
             </div>
-            <div className="cubeHeader"><div className="cubeHead1"><div className="cubeHead2"></div></div></div>
-            <div className="headerIn">
-                <div className='headerBox'>
+            <div className={style.cubeHeader}><div className={style.cubeHead1}><div className={style.cubeHead2}></div></div></div>
+            <div className={style.headerIn}>
+                <div className={style.headerBox}>
                     <NavLink to="/" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Home</strong>
                     </NavLink>
                 </div>
-                <div className='headerBox'>
+                <div className={style.headerBox}>
                     <NavLink to="/dialogs" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Messages</strong>
                     </NavLink>
                 </div>
-                <div className='headerBox'>
+                <div className={style.headerBox}>
                     <NavLink to="/profile" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
-                        <strong>Posts</strong>
+                        <strong>Profile</strong>
                     </NavLink>
                 </div>
-                <div className='headerBox'>
+                <div className={style.headerBox}>
                     <NavLink to="/items" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Items</strong>
                     </NavLink>
                 </div>
-                <div className='headerBox'>
+                <div className={style.headerBox}>
                     <NavLink to="/patterns" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                         <strong>Patterns</strong>
                     </NavLink>
                 </div>
-                <div className='headerBox'>
+                <div className={style.headerBox}>
                     <NavLink to="/info" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
                             <strong>Info</strong>
                     </NavLink>

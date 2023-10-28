@@ -1,17 +1,17 @@
-import "./divManeken.css";
+import style from "./divManeken.module.css";
 
 
 const DivManeken = () => {
 
     return(
-        <div className="divManeken">
-            <p className="p1">M</p>   
-            <p className="p2">A</p>  
-            <p className="p3">N</p>  
-            <p className="p4">E</p>  
-            <p className="p5">K</p>  
-            <p className="p6">E</p>  
-            <p className="p7">N</p>  
+        <div className={style.divManeken}>
+            <p className={style.p1}>M</p>   
+            <p className={style.p2}>A</p>  
+            <p className={style.p3}>N</p>  
+            <p className={style.p4}>E</p>  
+            <p className={style.p5}>K</p>  
+            <p className={style.p6}>E</p>  
+            <p className={style.p7}>N</p>  
         </div>
     );
 };

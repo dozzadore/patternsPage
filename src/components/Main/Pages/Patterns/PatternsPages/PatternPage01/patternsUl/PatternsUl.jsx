@@ -1,6 +1,5 @@
 import React from "react";
-import "../../patternspages.css";
-
+import style from "../../patternspages.module.css";
 
 
 
@@ -106,13 +105,13 @@ const PatternsUl = () => {
     }
     
     return(
-        <div className="selectlink"> 
-            <fieldset className="patternsUlHeight">
+        <div className={style.selectlink}> 
+            <fieldset className={style.patternsUlHeight}>
                 <legend>Рост:</legend>
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioHeight1" 
+                    id={style.inRadioHeight1}
                     name="height" 
                     value={data.value1} 
                     onChange={showInputHeight}
@@ -123,7 +122,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioHeight2" 
+                    id={style.inRadioHeight2}
                     name="height" 
                     value={data.value2} 
                     onChange={showInputHeight}
@@ -133,7 +132,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioHeight3" 
+                    id={style.inRadioHeight3}
                     name="height" 
                     value={data.value3} 
                     onChange={showInputHeight}
@@ -141,12 +140,12 @@ const PatternsUl = () => {
                     <label >170</label>
                 </div>
             </fieldset>
-            <fieldset className="patternsUlSize">
+            <fieldset className={style.patternsUlSize}>
                 <legend>Размер:</legend>
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioSize" 
+                    id={style.inRadioSize}
                     name="size" 
                     value={data1.value1}  
                     onChange={showInputSize} />
@@ -155,7 +154,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioSize" 
+                    id={style.inRadioSize}
                     name="size" 
                     value={data1.value2}  
                     onChange={showInputSize} />
@@ -164,7 +163,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioSize" 
+                    id={style.inRadioSize} 
                     name="size" 
                     value={data1.value3}  
                     onChange={showInputSize} />
@@ -173,7 +172,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="inRadioSize" 
+                    id={style.inRadioSize} 
                     name="size" 
                     value={data1.value4} 
                     onChange={showInputSize} />
@@ -182,7 +181,7 @@ const PatternsUl = () => {
                 <div>
                     <input 
                     type="radio" 
-                    id="louie" 
+                    id={style.inRadioSize}
                     name="size" 
                     value={data1.value5} 
                     onChange={showInputSize}
@@ -191,7 +190,7 @@ const PatternsUl = () => {
                 </div>
             </fieldset>
             <button 
-            id="buttonPattern" 
+            id={style.buttonPattern} 
             type="button" 
             onClick={handleClick}
             disabled={isDisabledButton()}

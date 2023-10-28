@@ -1,4 +1,4 @@
-import "./dialogs.css";
+import style from "./dialogs.module.css";
 
 import ProfileInfo from "../Profile/ProfileInfo/ProfileInfo";
 import Message from "./Message/Message";
@@ -20,12 +20,12 @@ const Dialogs = (props) => {
     
 
     return(
-        <div className="Dialogs" >
+        <div className={style.Dialogs}>
             <ProfileInfo />
-            <div className="messages">
+            <div className={style.messages}>
                 {messageElements}
             </div>
-            <div className="dialogItems">
+            <div className={style.dialogItems}>
                 {dialogsElements}
             </div>
         </div>

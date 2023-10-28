@@ -1,14 +1,14 @@
 import ImageSlider from "./ItemCarousel";
-import "../../itempage.css";
+import style from "../../itempage.module.css";
 
 
 
 
 const ItemPage01 = () => {
     return(
-        <div className="itemPageMain">
+        <div className={style.itemPageMain}>
             <ImageSlider />
-            <div className="itemPageRight">
+            <div className={style.itemPageRight}>
             </div>
         </div>
     )

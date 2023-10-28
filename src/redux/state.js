@@ -22,7 +22,15 @@ let state = {
               {id: 5, message: 'PHiHiHiHiHiHi'},
               {id: 6, message: 'HiHiHiHiHiHi'}
             ]
-    }
+    },
+    friends: [
+        {id: 1, name: 'Pavel1'},
+        {id: 2, name: 'Pavel2'},
+        {id: 3, name: 'Pavel3'},
+        {id: 4, name: 'Pavel4'},
+        {id: 5, name: 'Pavel5'},
+        {id: 6, name: 'Pavel6'}
+    ]
     
 }
 

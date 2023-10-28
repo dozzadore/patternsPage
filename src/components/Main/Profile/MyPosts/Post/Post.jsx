@@ -1,13 +1,13 @@
-import "./post.css";
+import style from "./post.module.css";
 
 
 
 const Post = (props) => {
 
     return (
-        <div className="post">
+        <div className={style.post}>
             <div>{props.message}</div>  
-            <div>Likes {props.likes}</div>
+            <div className={style.likes}>Likes {props.likes}</div>
         </div>
     )
 }

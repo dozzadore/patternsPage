@@ -1,5 +1,5 @@
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import './App.css';
+import style from './App.module.css';
 import Header from './components/Header/Header';
 import Main from './components/Main/Main';
 import Items from "./components/Main/Pages/Items/Items";
@@ -28,7 +28,7 @@ import Profile from "./components/Main/Profile/Profile";
 
 function App(props) {
   return (
-    <div className="App">
+    <div className={style.App}>
       
       <Router>
         <Header />
@@ -39,7 +39,7 @@ function App(props) {
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
             <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} />} />
-            <Route path="/profile" element={<Profile state={props.state.profilePage} />} />
+            <Route path="/profile" element={<Profile state={props.state} />} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>

@@ -22,12 +22,12 @@
     flex-direction: row;
   }
 
-  .main-to {
+  .mainTo {
     position: relative;
     width: 100%;
     height: 100%;
   }
-  .main-text {
+  .mainText {
     position: relative;
     display: flex;
    width: 70vw;
@@ -39,7 +39,7 @@
 
  
 
- .main-img {
+ .mainImg {
   position: relative;
   padding: 20px;
   top: 0;
@@ -52,7 +52,7 @@
   justify-content: center;
  }
 
- .main-in-img {
+ .mainInImg {
   width: 100%;
   height: 100%;
  }
@@ -199,7 +199,7 @@
     left: 0;
     top: 0;
   }
-  .main-text {
+  .mainText {
 
     z-index: 1;
     padding: 5px;
@@ -211,7 +211,7 @@
     
   }
 
-  .main-img {
+  .mainImg {
     display: flex;
     position: relative;
     width: 90vw;

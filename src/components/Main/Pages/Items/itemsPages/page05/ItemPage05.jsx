@@ -1,12 +1,12 @@
 import CenterMode from "./ItemCarousel";
-import "../../itempage.css";
+import style from "../../itempage.module.css";
 
 
 const ItemPage05 = () => {
     return(
-        <div className="itemPageMain">
+        <div className={style.itemPageMain}>
             <CenterMode />
-            <div className="itemPageRight"></div>
+            <div className={style.itemPageRight}></div>
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import "../patternspages.css";
+import style from "../patternspages.module.css";
 import img1 from "../../patternsCards/helpers/01.jpg";
 import PatternsUl from "./patternsUl/PatternsUl";
 
@@ -6,9 +6,9 @@ import PatternsUl from "./patternsUl/PatternsUl";
 const PatternPage01 = () => {
     
     return(
-        <div className="patternPageMain">
-           <div className="patternImg"><img src={img1} alt="" /></div>
-           <div className="patternText">
+        <div className={style.patternPageMain}>
+           <div className={style.patternImg}><img src={img1} alt="" /></div>
+           <div className={style.patternText}>
             <PatternsUl />
            </div>
            

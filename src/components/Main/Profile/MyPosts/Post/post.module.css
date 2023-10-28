@@ -1,0 +1,13 @@
+.post {
+    width: 100%;
+    margin: 5px;
+    border: solid 1px black;
+}
+.likes {
+    border-radius: 10%;
+    background: rgb(46, 45, 45);
+    color: white;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}

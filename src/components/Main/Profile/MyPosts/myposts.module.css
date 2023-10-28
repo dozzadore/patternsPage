@@ -3,3 +3,6 @@
     display: flex;
     flex-direction: row;
 }
+.posts {
+    width: 100%;
+}
