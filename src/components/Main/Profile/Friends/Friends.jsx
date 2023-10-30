@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import "../profile.module.css";
+import style from "./friends.module.css";
 
 
 
@@ -7,15 +7,24 @@ import "../profile.module.css";
 const Friends = (props) => {
 
 
-    let friends = props.state.map(friends => {
-        return <div><NavLink>{friends.name}</NavLink></div>
+    let friends = props.state.friends.map(friends => {
+        return (
+            <div className={style.friend}>
+                <div>
+                    <div className={style.avatar}>
+                        <div className={style.onlineCheck}></div>
+                    </div>
+                </div>
+                <NavLink>{friends.name}</NavLink>
+            </div>
+        )
     })
     
 
     return (
-        <div className="friends">
+        <div className={style.friends}>
 
-            friends
+            My friends
             <div>
             {friends}
             </div>

@@ -28,8 +28,8 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div className={style.headerBox}>
-                    <NavLink to="/items" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
-                        <strong>Items</strong>
+                    <NavLink to="/friends" style={({ isActive }) =>({color: isActive ? '#fffdfd80' : 'white'})}>
+                        <strong>Friends</strong>
                     </NavLink>
                 </div>
                 <div className={style.headerBox}>

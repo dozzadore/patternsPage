@@ -21,6 +21,7 @@ import DivManeken from "./components/OptionComponents/DivManeken/DivManeken";
 import Dialogs from "./components/Main/Dialogs/Dialogs";
 import ShadowLine from "./components/OptionComponents/ShadowLine/ShadowLine";
 import Profile from "./components/Main/Profile/Profile";
+import Friends from "./components/Main/Profile/Friends/Friends";
 
 
 
@@ -40,6 +41,7 @@ function App(props) {
             <Route path="/info" element={<Info />} />
             <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} />} />
             <Route path="/profile" element={<Profile state={props.state} />} />
+            <Route path="/friends" element={<Friends state={props.state}/>} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>
