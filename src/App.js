@@ -39,8 +39,11 @@ function App(props) {
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
-            <Route path="/dialogs" element={<Dialogs state={props.state.dialogsPage} />} />
-            <Route path="/profile" element={<Profile state={props.state} />} />
+            <Route path="/dialogs" element={<Dialogs 
+                  state={props.state.dialogsPage} />} />
+            <Route path="/profile" element={<Profile 
+                  state={props.state} 
+                  addPost={props.addPost}/>} />
             <Route path="/friends" element={<Friends state={props.state}/>} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>

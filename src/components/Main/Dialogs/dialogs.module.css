@@ -33,10 +33,11 @@
  }
  .messages {
     width: 40%;
-    height: 100%;
+    height: 60vh;
     position: relative;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    border: 1px solid black;
  }
  .message {
     margin: 2px;
@@ -50,4 +51,17 @@
    cursor: pointer;
    text-decoration: none; 
    color: rgb(152, 241, 241);
+ }
+ .textValue {
+   width: 100%;
+   height: 30px;
+ }
+ textarea {
+   width: 90%;
+   height: 30px;
+ }
+ button {
+   position: relative;
+   width: 10%;
+   height: 30px;
  }
