@@ -21,7 +21,7 @@ const MyPosts = (props) => {
     return (
         <div className={style.myposts}>
             
-            <div>
+            <div className={style}>
                 My posts
                 <div>
                     <textarea   
