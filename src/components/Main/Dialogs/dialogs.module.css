@@ -37,7 +37,7 @@
     position: relative;
     display: flex;
     flex-direction: column-reverse;
-    border: 1px solid black;
+
  }
  .message {
     margin: 2px;
@@ -64,4 +64,10 @@
    position: relative;
    width: 10%;
    height: 30px;
+ }
+ .messagesItems {
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+   overflow-y: auto;
  }

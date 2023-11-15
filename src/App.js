@@ -40,7 +40,8 @@ function App(props) {
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
             <Route path="/dialogs" element={<Dialogs 
-                  state={props.state.dialogsPage} />} />
+                  store={props.store}
+                  />} />
             <Route path="/profile" element={<Profile 
                   profilePage={props.state.profilePage} 
                   dispatch={props.dispatch}
