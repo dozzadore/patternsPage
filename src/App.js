@@ -18,16 +18,16 @@ import PatternPage04 from "./components/Main/Pages/Patterns/PatternsPages/Patter
 import PatternPage05 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage05/PatternPage05";
 import PatternPage06 from "./components/Main/Pages/Patterns/PatternsPages/PatternPage06/PatternPage06";
 import DivManeken from "./components/OptionComponents/DivManeken/DivManeken";
-import Dialogs from "./components/Main/Dialogs/Dialogs";
 import ShadowLine from "./components/OptionComponents/ShadowLine/ShadowLine";
 import Profile from "./components/Main/Profile/Profile";
 import Friends from "./components/Main/Profile/Friends/Friends";
+import DialogsContainer from "./components/Main/Dialogs/DialogsContainer";
 
 
 
 
 
-function App(props) {
+const App = (props) => {
   return (
     <div className={style.App}>
       
@@ -39,14 +39,13 @@ function App(props) {
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
-            <Route path="/dialogs" element={<Dialogs 
+            <Route path="/dialogs" element={<DialogsContainer 
                   store={props.store}
                   />} />
             <Route path="/profile" element={<Profile 
-                  profilePage={props.state.profilePage} 
-                  dispatch={props.dispatch}
+                  store={props.store}
                   />} />
-            <Route path="/friends" element={<Friends state={props.state}/>} />
+            <Route path="/friends" element={<Friends store={props.store}/>} />
             <Route path="/items/itempage01" element={<ItemPage01 />}/>
             <Route path="/items/itempage02" element={<ItemPage02 />}/>
             <Route path="/items/itempage03" element={<ItemPage03 />}/>

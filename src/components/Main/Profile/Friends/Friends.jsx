@@ -6,8 +6,8 @@ import style from "./friends.module.css";
 
 const Friends = (props) => {
 
-
-    let friends = props.state.friends.map(friends => {
+    let friends = props.store.friends.map(friends => {
+        
         return (
             <div className={style.friend}>
                 <div>
