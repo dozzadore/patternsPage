@@ -35,7 +35,7 @@ function App(props) {
         <Header />
         <ShadowLine />
         <Routes>
-            <Route path="/" element={<Main />} />
+            <Route path="/*" element={<Main />} />
             <Route path="/items" element={<Items />} />
             <Route path="/patterns" element={<Patterns />}/>
             <Route path="/info" element={<Info />} />
